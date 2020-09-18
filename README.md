@@ -1,4 +1,4 @@
-# TP3bis : Classes et Objets
+# TP4 : Classes et Objets
 
 ### Objectifs
 Manipuler les classes :
@@ -10,17 +10,16 @@ Manipuler les classes :
 
 ### Prérequis
 - Cloner le projet sur votre poste dans le repertoire de votre choix
-- Ouvrir le projet USSI2A-TP3bis
+- Ouvrir le projet USSI2A-TP4
     - *File > New > Project from Exiting Sources* (ou *Import Project* si vous êtes sur l'écran d'accueil)
     - Selectionner le dossier du projet
     - Selectionner **Create project from existing sources**
     - Conserver les informations (*Nom, Location, Format*)
     - IntelliJ détecte que c'est un projet Java
     - Aucune bibliothèque n'est integtée au projet
-    - IntelliJ créé un modules USSI2A-TP3bis
-    - Choisir JDK13, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 13
+    - Choisir JDK14, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 14
     - Aucun Framework n'est detecté
-    - Aller dans File > Project Structure et Choisir 13 **Project language level**
+    - Aller dans File > Project Structure et Choisir 14 **Project language level**
 
 ### Utilisation de GIT
 
@@ -32,7 +31,7 @@ Manipuler les classes :
 
 ### Exercice 1
 
-- Compléter la classe **Exec** avec une méthode **main()** dans le package *net.lecnam.ussi2a.tp3bis*
+- Compléter la classe **Exec** avec une méthode **main()** dans le package *net.lecnam.ussi2a.tp4*
 - Modéliser un **Etudiant**. Pensez a respecter l'encapsulation (ajouter les accesseurs), ajouter le/les constructeurs qui vous paraissent judicieux.
 	- Caractéristiques :
 		- nom
