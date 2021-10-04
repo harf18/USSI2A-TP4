@@ -10,16 +10,13 @@ Manipuler les classes :
 
 ### Prérequis
 - Cloner le projet sur votre poste dans le repertoire de votre choix
-- Ouvrir le projet USSI2A-TP4
-    - *File > New > Project from Exiting Sources* (ou *Import Project* si vous êtes sur l'écran d'accueil)
-    - Selectionner le dossier du projet
-    - Selectionner **Create project from existing sources**
-    - Conserver les informations (*Nom, Location, Format*)
-    - IntelliJ détecte que c'est un projet Java
-    - Aucune bibliothèque n'est integtée au projet
-    - Choisir JDK14, s'il n'est pas dans la liste, cliquer sur le <span style="color:green">**+**</span> et selectionner le dossier du JDK 14
-    - Aucun Framework n'est detecté
-    - Aller dans File > Project Structure et Choisir 14 **Project language level**
+- Ouvrir le projet TP4 :
+	- Sur l'écran d'accueil d'IntelliJ, cliquer sur **New Project**
+	- Selectionner **Java** dans la liste de gauche et **17** dans **Project SDK** puis Next
+	- Ne rien cocher puis **Next**
+	- Cliquer sur les **...** de **Project location** puis selectionner le dossier du projet tp4-xxxxx et cliquer sur **OK**
+	- Cliquer sur **Finish**
+	- Le projet s'ouvre
 
 ### Utilisation de GIT
 
@@ -36,25 +33,25 @@ Manipuler les classes :
 	- Caractéristiques :
 		- nom
 		- prenom
-		- Ensemble de notes (maxi 50)
+		- Tableau de notes (maxi 50) (Bien utiliser un tableau, même si vous connaissez les ArrayList)
 	- Actions :
 		- getMoyenne() : Retourne la moyenne de l'eleve
-		- ajouterNote(double) : ajoute une note à l'ensemble
+		- ajouterNote(double) : ajoute une note à l'ensemble. Attention une note doit être entre 0 et 20.
 		- une méthode pour retourner la description de l'étudiant (nom, prenom, moyenne) 
 - Dans la méthode **main()** de **Exec**, créé un étudiant, ajouter lui des notes, afficher sa description
 
 > Pensez a faire un commit !!
 
 ### Exercice 2
-- Modéliser une classe **Division **(représente une classe d'étudiant, une promotion). Ajouter le/les constructeurs qui vous paraissent judicieux.
+- Modéliser une classe **Division **(représente une classe d'étudiant mais le mot classe porte a confusion ici). Ajouter le/les constructeurs qui vous paraissent judicieux.
 	- Caractéristiques :
 		- nom
-		- un ensemble d'étudiant (maxi 50)
+		- un ensemble d'étudiant (maxi 50) (Bien utiliser un tableau, même si vous connaissez les ArrayList)
 	- Actions
 		- getMoyenne() :  Retourne la moyenne de la division
 		- getNombreEtudiant() : Indique le nombre d'étudiant de la division
 		- ajouterEtudiant(Etudiant)
-		- chercherEtudiant(String) : recherche dans le tableau le 1er etudiant dont le nom ou le prenom contiennent la chaine saisie. Retourne un etudiant ou null si aucun étudiant ne correspond.
+		- chercherEtudiant(String) : recherche dans le tableau le 1er etudiant dont le nom ou le prenom contiennent la chaine saisie. Retourne un objet etudiant ou null si aucun étudiant ne correspond.
 		- listerEtudiant() : affiche a l'écran le nom de la division et la liste des description des étudiants;
 - Dans la méthode **main()** de **Exec**, créé une division, ajouter lui des étudiants, ajouter des notes à ces étudiants, rechercher un étudiant, lister les étudiants de la classe.
 
@@ -65,7 +62,7 @@ Manipuler les classes :
 - Modéliser une classe **Ecole**
 	- Caractéristiques :
 		- nom
-		- un ensemble de divisions (maxi 50)
+		- un ensemble de divisions (maxi 50) (Bien utiliser un tableau, même si vous connaissez les ArrayList)
 	- Actions
 		- ajouterDivision(Division)
 		- chercherEleve(String) : recherche sur le nom ou prénom de l'éleve, retourne un éleve et le nom de sa classe.
