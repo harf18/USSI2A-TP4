@@ -43,7 +43,7 @@ Manipuler les classes :
 > Pensez a faire un commit !!
 
 ### Exercice 2
-- Modéliser une classe **Division **(représente une classe d'étudiant mais le mot classe porte a confusion ici). Ajouter le/les constructeurs qui vous paraissent judicieux.
+- Modéliser une classe **Division** (représente une classe d'étudiant mais le mot classe porte a confusion ici). Ajouter le/les constructeurs qui vous paraissent judicieux.
 	- Caractéristiques :
 		- nom
 		- un ensemble d'étudiant (maxi 50) (Bien utiliser un tableau, même si vous connaissez les ArrayList)
@@ -76,7 +76,11 @@ Manipuler les classes :
 ### Exercice 4 (bonus)
 - Compléter la classe **Ecole** pour récupérer le meilleur élève de l'école
 
-### Exercice 4 (bonus)
+### Exercice 5 (bonus)
 - Compléter la classe Etudiant avec une date de naissance
 - Compléter les autres classes pour récupérer le plus vieil étudiant
+
+### Exercice 6 (bonus)
+- Compléter la classe Etudiant avec le genre (Masculin / Feminin)
+- Compléter les autres classes pour faire une moyenne par genre
 
